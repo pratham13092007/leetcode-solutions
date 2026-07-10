@@ -13,4 +13,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/pratham13092007/leetcode-solutions/tree/master/0088-merge-sorted-array) |
+## Math
+|  |
+| ------- |
+| [2235-add-two-integers](https://github.com/pratham13092007/leetcode-solutions/tree/master/2235-add-two-integers) |
 <!---LeetCode Topics End-->
