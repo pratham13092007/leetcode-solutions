@@ -1,10 +1,10 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& Array){
-        int N = Array.size();
+        int N = Array.size();       // size of original array
 
-        vector<int> pos;
-        vector<int> neg;
+        vector<int> pos;   // array store positive values
+        vector<int> neg;   // array store negative values
         
 
         // putting element of main array into pos/neg according to their type
@@ -37,21 +37,24 @@ public:
         
         
         // at last if the array contain both positive and negative
+
         int i=0 , j=0;
         int m = pos.size() , n = neg.size();
         
-        for(int i=0 ; i<pos.size() ; i++){
-            pos[i] *= pos[i];
+        for(int i=0 ; i<m ; i++){
+            pos[i] *= pos[i];     // inserting by squaring elements
         }
 
-        for(int i=0 ; i<neg.size() ; i++){
-            neg[i] *= neg[i];
+        for(int i=0 ; i<n ; i++){
+            neg[i] *= neg[i];     
         }
 
 
-        vector<int> mix;
+        vector<int> mix;     // creating array that store final sorted array
         
-        reverse(neg.begin() , neg.end());
+        reverse(neg.begin() , neg.end());     // reversing negative array
+
+        // applying merging to merge both array
 
         while(i<m && j<n){
             if(pos[i] <= neg[j]){
@@ -60,20 +63,16 @@ public:
                 mix.push_back(neg[j++]);
             }
         }
-        
         while(i<m){
             mix.push_back(pos[i++]);
         }
-
         while(j<n){
             mix.push_back(neg[j++]);
         }
 
         return mix;
-        
     }
 };
-
 
 
 // brute force approach
