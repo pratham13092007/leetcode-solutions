@@ -16,7 +16,7 @@ public:
             int left = i+1;
             int right = n-1;
             int s;
-            int target_sum = -arr[i]; // third element
+            int target_sum = -1 * arr[i]; // third element
             while(left < right){
                 s = arr[left] + arr[right];
                 if(s == target_sum){
