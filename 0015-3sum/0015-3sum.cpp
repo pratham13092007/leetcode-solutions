@@ -24,11 +24,11 @@ public:
                     left++;
                     right--;
 
-                    while(left<n && arr[left] == arr[left-1]){
+                    while(left<right && arr[left] == arr[left-1]){
                         left++;
                     }
 
-                    while(right>=0 && arr[right] == arr[right+1]){
+                    while(left<right && arr[right] == arr[right+1]){
                         right--;
                     }
                 }
