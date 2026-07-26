@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/pratham13092007/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/pratham13092007/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/pratham13092007/leetcode-solutions/tree/master/0088-merge-sorted-array) |
+| [0500-keyboard-row](https://github.com/pratham13092007/leetcode-solutions/tree/master/0500-keyboard-row) |
 | [0977-squares-of-a-sorted-array](https://github.com/pratham13092007/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 ## Two Pointers
 |  |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/pratham13092007/leetcode-solutions/tree/master/0020-valid-parentheses) |
+| [0500-keyboard-row](https://github.com/pratham13092007/leetcode-solutions/tree/master/0500-keyboard-row) |
 ## Stack
 |  |
 | ------- |
@@ -65,4 +67,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/pratham13092007/leetcode-solutions/tree/master/0509-fibonacci-number) |
+## Hash Table
+|  |
+| ------- |
+| [0500-keyboard-row](https://github.com/pratham13092007/leetcode-solutions/tree/master/0500-keyboard-row) |
 <!---LeetCode Topics End-->
